@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* Ninja Tools CSS */
+
+div.NinjaToolsInfo {
+  display:block;
+  float:right;
+  margin:-10px 15px 25px 10px;
+  padding:10px;
+  width:450px;
+}
+
+div.NinjaToolsInfo h2{
+  margin:0;
+  padding:0;
+}
+
+div.NinjaToolsInfoBox {
+  background: #eeeeee;
+  background: -webkit-gradient(linear, 0 0, 0 bottom, from(#eeeeee), to(#dddddd));
+  background: -moz-linear-gradient(#eeeeee, #dddddd);
+  background: linear-gradient(#eeeeee, #dddddd);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: #333 0px 0px 5px;
+  -moz-box-shadow: #333 0px 0px 5px;
+  box-shadow: #333 0px 0px 5px;
+  margin:-10px 15px 25px 10px;
+  padding:10px;
+}
+
+div.NinjaToolsInfoBox h2{
+  margin:0;
+  padding:0;
+  text-align:center;
+}
+
+div.NinjaToolsMain {
+
+}
+
+div.NinjaNote {
+  background:#eeeeee;
+  font-family:"Courier New", Courier, monospace;
+  padding:10px;
+  border: 1px solid #333;
+  width: 400px;
+}
+
+a.sm_button {
+  padding:4px;
+  display:block;
+  padding-left:25px;
+  background-repeat:no-repeat;
+  background-position:5px 50%;
+  text-decoration:none;
+  border:none;
+}
+
+a.sm_pluginHome {
+  background-image:url(images/icon.png);
+}
+
+a.sm_wordpress {
+  background-image:url(images/icon-wordpress.gif);
+}
